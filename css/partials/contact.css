@@ -1,0 +1,6 @@
+main {
+  grid-area: main;
+  width: 90%;
+  margin: auto;
+  display: grid;
+}

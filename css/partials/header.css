@@ -1,0 +1,55 @@
+.logo {
+  width: fit-content;
+  cursor: pointer;
+  color: black;
+}
+
+header {
+  grid-area: header;
+  width: 100%;
+  background-color: #12232e;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  padding: 0 1rem;
+  width: 80%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 20px 20px 20px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+.nav-bar {
+  width: fit-content;
+}
+
+.hamburger_menu {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 1.4rem;
+  display: none;
+}
+
+.hamburger_menu:focus {
+  outline: none;
+}
